@@ -1,0 +1,22 @@
+.header__lang-link {
+  font-family: 'Inter', 'Arial', sans-serif;
+  line-height: 28px;
+  font-size: 24px;
+  color: #fff;
+  font-style: normal;
+  font-weight: normal;
+  transition: opacity 1s linear;
+}
+
+.link:hover {
+  opacity: 0.8;
+}
+
+
+
+  @media screen and (max-width : 425px) {
+    .header__lang-link {
+      line-height: 24px;
+      font-size: 18px;
+    }
+}

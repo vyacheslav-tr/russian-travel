@@ -1,0 +1,30 @@
+@import url(./__title/intro__title.css);
+@import url(./__text/intro__text.css);
+@import url(./__list/intro__list.css);
+@import url(./__lists/intro__lists.css);
+@import url(./__list-digit/intro__list-digit.css);
+
+.intro {
+    max-width: 984px;
+    margin: 92px auto;
+  }
+  
+  @media (max-width: 1024px) {
+    .intro {
+      margin-left: 48px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .intro {
+      max-width: 720px;
+      margin: 88px 24px;
+    }
+  }
+  
+  @media (max-width: 425px) {
+    .intro {
+      margin: 64px 16px;
+    }
+  }
+
